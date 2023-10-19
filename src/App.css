@@ -1,0 +1,411 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/*----------------------------- Navbar css -----------------------------*/
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  float: left;
+  z-index: 9999;
+  position: fixed;
+}
+.nav-logo{
+  display: flex;
+  padding: 20px 0;
+  width: 100px;
+  height: 60px;
+}
+.nav-div-par{
+  padding: 35px 0;
+}
+.link-ul li{
+  font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+.link-ul li:hover{
+  background-color: #ffea00;
+  transition: all 0.3s;
+  color: #414146;
+  cursor: pointer;
+}
+.nav-par{
+  color: #fff;
+  font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+}
+.link{
+  color: #fff;
+  text-decoration: none;
+}
+
+/*---------------------------- Body Website ----------------------------*/
+.main{
+  width: 100%;
+  height: auto;
+  float:left;
+  margin-top: 100px;
+  background-color: #414146;
+}
+.container{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+  text-align: justify;
+  background-color: #fff;
+}
+.obj-comp{
+  padding: 0px 3%;
+}
+.comp-subpar{
+  color: #62666f;
+  padding: 2% 0%;
+}
+.comp-paragraph-value{
+  padding: 1% 2%;
+}
+.comp-container{
+  display: flex;
+  align-items: center;
+}
+.photo-wagner{
+  width: 25%;
+  height: 25%;
+}
+
+/*--------------------------- Home Component ---------------------------*/
+.dev-img-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dev-img{
+  width: 100%;
+  height: 100%;
+}
+.dev-text{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  color: #fff;
+  align-items: center;
+}
+.center-photo{
+  display: flex;
+  justify-content: center;
+}
+
+/*------------------------------ About me ------------------------------*/
+.grid-div{
+  font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------- Experience -----------------------------*/
+.comp-paragraph-job{
+  padding-left: 1%;
+  padding-top: 1.5%;
+}
+.comp-paragraph-period{
+  padding-left: 1%;
+  margin-bottom: -0.5%;
+}
+
+/*------------------------------ Projects ------------------------------*/
+.project-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-card{
+  margin: 5% 5%;
+  width: 50%;
+  height: 50%;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+.project-inf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% 10%;
+  padding: 10% 10%;
+}
+.itau-img{
+  width: 80%;
+  height: 80%;
+}
+
+/*-------------------------------Contact -------------------------------*/
+.contact-inf{
+  display: flex;
+  margin: 2% 0;
+}
+.github-inf{
+  margin: 2% 0;
+}
+.social-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social-midia{
+  margin: 5% 5%;
+  width: 100%;
+  height: 100%;
+}
+.social-link{
+  margin: 5% 5%;
+  width: 10%;
+  height: 10%;
+}
+
+/*------------------------------- Footer -------------------------------*/
+.footer-body{
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.footer-personal{
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}
+.footer-text{
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+  margin: 1.5% 0;
+}
+
+/*---------------------------- Media screen ----------------------------*/
+@media screen and (min-width:1420px){
+  /*---------------------------- Navbar css ----------------------------*/
+  .link-ul li{
+    width: 8%;
+    font-size: 80%;
+    padding: 42.5px 30px;
+    float: left;
+    text-align: center;
+  }
+  .nav-link{
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .link-ul{
+    width: 70%;
+    height: 100px;
+    float: left;
+  }
+  .nav-par{
+    font-size: 13px;
+  }
+  /*-------------------------- Image Developer--------------------------*/
+  .dev-text{
+    font-size: 70px;
+    text-shadow: 4px 4px 20px #000, 0px 0px 20px #000;
+  }
+  /*------------------------------ About me ------------------------------*/
+  .grid-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 100%;
+  }
+  /*------------------------------ Projects ------------------------------*/
+  .p-project{
+    font-size: 13px;
+  }
+  /*------------------------------- Footer -------------------------------*/
+  .footer-personal{
+    font-size: 300%;
+  }
+}
+
+@media screen and (min-width:1210px) and (max-width:1419px){
+  /*---------------------------- Navbar css ----------------------------*/
+  .link-ul li{
+    width: 8%;
+    font-size: 80%;
+    padding: 42.5px 30px;
+    float: left;
+    text-align: center;
+  }
+  .nav-link{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .link-ul{
+    width: 80%;
+    height: 100px;
+    float: left;
+  }
+  .nav-par{
+    font-size: 13px;
+  }
+  /*-------------------------- Image Developer--------------------------*/
+  .dev-text{
+    font-size: 65px;
+    text-shadow: 3px 3px 18px #000, 0px 0px 18px #000;
+  }
+  /*------------------------------ About me ------------------------------*/
+  .grid-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 90%;
+  }
+  /*------------------------------ Projects ------------------------------*/
+  .p-project{
+    font-size: 13px;
+  }
+  /*------------------------------- Footer -------------------------------*/
+  .footer-personal{
+    font-size: 300%;
+  }
+}
+
+@media screen and (min-width:860px) and (max-width:1209px){
+  /*---------------------------- Navbar css ----------------------------*/
+  .link-ul li{
+    width: 8%;
+    font-size: 70%;
+    padding: 44px 25px;
+    float: left;
+    text-align: center;
+  }
+  .nav-link{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .link-ul{
+    width: 90%;
+    height: 100px;
+    float: left;
+  }
+  .nav-par{
+    font-size: 11px;
+  }
+  /*-------------------------- Image Developer--------------------------*/
+  .dev-text{
+    font-size: 55px;
+    text-shadow: 2px 2px 15px #000, 0px 0px 15px #000;
+  }
+  /*------------------------------ About me ------------------------------*/
+  .grid-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 75%;
+  }
+  /*------------------------------ Projects ------------------------------*/
+  .p-project{
+    font-size: 11px;
+  }
+  /*------------------------------- Footer -------------------------------*/
+  .footer-personal{
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width:590px) and (max-width:859px){
+  /*---------------------------- Navbar css ----------------------------*/
+  .link-ul li{
+    width: 7%;
+    font-size: 50%;
+    padding: 46px 12px;
+    float: left;
+    text-align: center;
+  }
+  .nav-link{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .link-ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    float: left;
+  }
+  .nav-par{
+    font-size: 8px;
+  }
+  /*-------------------------- Image Developer--------------------------*/
+  .dev-text{
+    font-size: 40px;
+    text-shadow: 1px 1px 12px #000, 0px 0px 12px #000;
+  }
+  /*------------------------------ About me ------------------------------*/
+  .grid-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 90%;
+  }
+  /*------------------------------ Projects ------------------------------*/
+  .p-project{
+    font-size: 9px;
+  }
+  /*------------------------------- Footer -------------------------------*/
+  .footer-personal{
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width:0px) and (max-width:589px){
+  /*---------------------------- Navbar css ----------------------------*/
+  .link-ul li{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    padding: 0px 0px;
+    font-size: 78%;
+  }
+  .nav-link{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .link-ul{
+    width:100%;
+  }
+  .nav-par{
+    font-size: 8px;
+  }
+  /*-------------------------- Image Developer--------------------------*/
+  .dev-text{
+    font-size: 30px;
+    text-shadow: 1px 1px 9px #000, 0px 0px 9px #000;
+  }
+  /*------------------------------ About me ------------------------------*/
+  .grid-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 70%;
+  }
+  /*------------------------------ Projects ------------------------------*/
+  .p-project{
+    font-size: 8px;
+  }
+  /*------------------------------- Footer -------------------------------*/
+  .footer-personal{
+    font-size: 150%;
+  }
+}
