@@ -1,8 +1,8 @@
 import React from "react"
-import aboutme from './database/aboutme'
-import certifications from './database/certifications'
-import languages from "./database/languages"
-import Paragraph from "./subcomponents/Paragraph"
+import aboutme from '../../components/database/aboutme'
+import certifications from '../../components/database/certifications'
+import languages from "../../components/database/languages"
+import Paragraph from "../../components/subcomponents/Paragraph"
 
 export default function AboutMe() {
     const aboutMeParagraph = aboutme.map(item => {
