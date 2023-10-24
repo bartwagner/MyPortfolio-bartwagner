@@ -1,6 +1,6 @@
 import React from "react"
-import Paragraph from "./subcomponents/Paragraph"
-import projects from "./database/projects"
+import Paragraph from "../../components/subcomponents/Paragraph"
+import projects from "../../components/database/projects"
 
 export default function Projects() {
     const projectsParagraph = projects.map(item => {

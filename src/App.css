@@ -408,4 +408,13 @@
   .footer-personal{
     font-size: 150%;
   }
+  /*------------------------------- Contact-------------------------------*/
+  .social-link{
+    margin: 10% 5%;
+    width: 10%;
+    height: 10%;
+  }
+  .github-inf{
+      margin: 10% 0;
+  }
 }

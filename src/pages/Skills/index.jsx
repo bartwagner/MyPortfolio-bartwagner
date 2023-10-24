@@ -1,6 +1,6 @@
 import React from "react"
-import skills from "./database/skills"
-import Paragraph from "./subcomponents/Paragraph"
+import skills from "../../components/database/skills"
+import Paragraph from "../../components/subcomponents/Paragraph"
 
 export default function Skills() {
     const skillsParagraph = skills.map(item => {

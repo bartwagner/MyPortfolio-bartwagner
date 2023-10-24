@@ -1,6 +1,6 @@
 import React from "react"
-import Paragraph from "./subcomponents/Paragraph"
-import contact from "./database/contact"
+import Paragraph from "../../components/subcomponents/Paragraph"
+import contact from "../../components/database/contact"
 
 export default function Contact() {
     const contactParagraph = contact.map(item => {

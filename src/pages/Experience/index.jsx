@@ -1,6 +1,6 @@
 import React from "react"
-import experience from "./database/experience"
-import Paragraph from "./subcomponents/Paragraph"
+import experience from "../../components/database/experience"
+import Paragraph from "../../components/subcomponents/Paragraph"
 
 export default function Experience() {
 
