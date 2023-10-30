@@ -37,7 +37,7 @@ export default function Contact() {
                 </div>
             </div>
             <p className="github-inf">What are your thoughts on this website?</p>
-            <p className="github-inf">You can access the code on <a href="https://github.com/bartwagner/Challenges/tree/main/07-MyPersonalWebSite/mypersonalwebsite">my GitHub</a> repository</p>
+            <p className="github-inf">You can access the code on <a href="https://github.com/bartwagner/MyPortfolio-bartwagner">my GitHub</a> repository</p>
             <p className="github-inf">Would you be interested in viewing additional code on my GitHub profile? <a href="https://github.com/bartwagner">GitHub</a></p>
         </div>
     )
